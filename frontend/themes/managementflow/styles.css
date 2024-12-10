@@ -1,0 +1,937 @@
+@import "login-form.css";
+@import "register.css";
+
+.traffic-header div > span {
+   color: white;
+   text-shadow: 0.5px 0.5px white;
+   font-size: 15px;
+}
+
+.traffic-header div > vaadin-icon:nth-child(2) {
+    margin-left: 8px;
+}
+
+.traffic-header div > vaadin-icon:last-child {
+   margin-left: 12px;
+}
+
+.traffic-header div {
+   margin-right: 15px;
+}
+
+.traffic-header {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid var(--nav-borde);
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.traffic-header vaadin-combo-box {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.traffic-header vaadin-combo-box::part(input-field) {
+    background: none;
+    color: white;
+}
+
+/* RATING */
+.new-rating-layout > vaadin-horizontal-layout:nth-child(1) > span > span:last-child {
+}
+
+.new-rating-layout > vaadin-horizontal-layout:nth-child(1) > span > span:first-child {
+     background: var(--lumo-success-text-color);
+     margin-right: 15p;
+     text-align: center;
+     border-radius: 30px;
+     align-self: end;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+
+.new-rating-layout > vaadin-horizontal-layout vaadin-avatar {
+    border: 0.5px solid var(--nav-border);
+    width: 45px;
+    height: 45px;
+}
+
+.new-rating-layout > vaadin-horizontal-layout:nth-child(1) > div > span {
+    width: 100%;
+}
+
+.new-rating-layout > vaadin-horizontal-layout:nth-child(1) > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.new-rating-layout > vaadin-horizontal-layout:nth-child(1) > span {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-rating-layout > vaadin-horizontal-layout:nth-child(1) {
+     background: gree;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0;
+}
+
+.new-rating-layout > vaadin-horizontal-layout {
+     width: 100%;
+     color: white;
+     text-shadow: 1px 1px black;
+     font-weight: bold;
+}
+
+.new-rating-layout {
+     background: #005000;
+     padding-top: 10px;
+     padding-bottom: 5px;
+     gap: 0;
+}
+
+.user-rating-header > div:nth-child(2) {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     gap: 8px;
+     height: 100;
+}
+
+.search-rating-field > input {
+    margin-left: 5px;
+}
+
+.search-rating-field::part(input-field) {
+     background: var(--text-field);
+     border-radius: 30px;
+}
+
+.search-rating-field {
+     margin-right: 10px;
+     padding-top: 0;
+     padding-bottom: 0;
+     width: 100%;
+     position: relative;
+     bottom: 10px;
+}
+
+.filter-combo-box::part(toggle-button) {
+    color: #0ef;
+}
+
+.filter-combo-box {
+    margin-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 119px;
+    margin-bottom: 0;
+}
+
+.filter-combo-box::part(helper-text) {
+   
+}
+
+.filter-combo-box > input {
+    margin-left: 10px;
+}
+
+.filter-combo-box::part(input-field) {
+    background: var(--text-field);
+    border-radius: ;
+}
+
+.user-rating-header > span {
+    color: white;
+    text-shadow: 0.5px 0.5px white;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 0.5px solid var(--nav-border);
+}
+
+.user-rating-header > div:nth-child(3) > span:last-child {
+    margin-right: 10px;
+}
+
+.user-rating-header > div:nth-child(3) > span:first-child {
+    margin-left: 10px;
+}
+
+.user-rating-header > div:nth-child(3) {
+     display: flex;
+     flex-direction:row;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     color: white;
+     text-shadow: 0.5px 0.5px white;
+     padding-bottom: 5px;
+}
+
+.user-rating-header {
+     padding: 0;
+}
+
+.rating-layout > vaadin-button {
+     background: var(--lumo-primary-color);
+     color: white;
+     text-shadow: 0.5px 0.5px white;
+     border-radius: 30px;
+     padding: 20px;
+}
+
+.rating-user-layout vaadin-avatar {
+     border: 0.5px solid var(--lumo-contrast-40pct);
+     width: 45px;
+     height: 45px;
+}
+
+.rating-user-layout > vaadin-horizontal-layout > span {
+     margin-right: 15px;
+}
+
+.rating-user-star-layout > div {
+}
+
+.rating-user-star-layout > div > vaadin-icon {
+     color: #0ef;
+     font-size: 11px;
+     margin-left: 10px;
+}
+
+.rating-user-star-layout > span {
+     font-size: 13px;
+     align-self: flex-end;
+     color: white;
+}
+
+.rating-user-star-layout {
+     align-items: center;
+     width: 100%;
+     justify-content: space-between;
+}
+
+.rating-user-layout > vaadin-horizontal-layout:first-child > div {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 10px;
+     margin-left: 10px;
+     color: white;
+     font-family: none;
+}
+
+.rating-user-layout > vaadin-horizontal-layout:first-child {
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+}
+
+.rating-user-layout > vaadin-horizontal-layout:first-child > vaadin-vertical-layout > span:last-child {
+     color: white;
+     text-shadow: 0.5px 0.5px white;
+     align-self: end;
+}
+
+.rating-user-layout > vaadin-horizontal-layout:first-child > vaadin-vertical-layout > span:first-child {
+     background: var(--lumo-success-color);
+     margin-right: 15p;
+     text-align: center;
+     border-radius: 30px;
+     color: white;
+     text-shadow: 0.5px 0.5px white;
+     align-self: end;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+
+.rating-user-layout > vaadin-horizontal-layout:first-child > vaadin-vertical-layout {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    width: 70px !importan;
+    padding-right: 15px;
+}
+
+.rating-user-layout > span {
+     align-self: end;
+     font-size: 14px;
+     color: var(--block-text-color);
+     margin-right: 10px;
+}
+
+.rating-user-layout {
+     all: unset;
+     width: 100%;
+     padding-top: 8px;
+     padding-bottom: 2px;
+     display: flex;
+     flex-direction: column;
+     background: var(--lumo-base-color);
+     margin-bottom: 5px;
+}
+
+.rating-user-main-layout > div > span:last-child {
+    margin-right: 10px;
+}
+
+.rating-user-main-layout > div > span:first-child {
+    margin-left: 10px;
+}
+
+.rating-user-main-layout > div {
+     display: flex;
+     flex-direction:row;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     padding-top: 10p;
+     padding-bottom: 10p;
+     border-bottom: 0.5px solid var(--nav-border);
+     color: white;
+     text-shadow: 0.5px 0.5px white;
+}
+
+.rating-user-main-layout > span {
+    color: white;
+    text-shadow: 0.5px 0.5px white;
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5px solid var(--nav-borde);
+    padding-top: 10px;
+    padding-bottom: 10p;
+}
+
+.rating-user-main-layout > vaadin-vertical-layout > vaadin-icon {
+    font-size: 30px;
+    color: #0ef;
+}
+
+.empty-rating-layout {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: var(--secondary);
+}
+
+.rating-user-main-layout {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    justify-content: space-between;
+    border-top: 0.5px solid var(--nav-border);
+    height: 100%;
+}
+
+.rating-main-layout > span { /* Overall ratings */
+    text-align: center;
+    width: 330px;
+    border-top: 0.5px solid var(--nav-border);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-style: italic;
+}
+
+.rating-main-layout {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: none;
+}
+
+
+.rating-star-layout:nth-child(2) {
+    background: #FF0000; /* Red */
+}
+
+.rating-star-layout:nth-child(3) {
+    background: #FF8C00; /* Orange */
+}
+
+.rating-layout > .rating-star-layout:nth-child(4) {
+    background: /*#FFD700*/ var(--lumo-warning-text-color); /* Yellow */
+}
+
+.rating-layout > .rating-star-layout:nth-child(5) {
+    background: #32CD32; /* Light Green */
+}
+
+.rating-layout > .rating-star-layout:nth-child(6) {
+    background: #008000; /* Green */
+}
+
+.rating-layout > .rating-star-layout > span {
+   align-self: end;
+   width: 100;
+   text-align: end;
+   color: white;
+   font-family: none;
+}
+
+.rating-layout > .rating-star-layout > vaadin-icon {
+   color: white;
+   font-size: 12px;
+}
+
+.rating-layout > .rating-star-layout {
+  width: 100%;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.rating-layout {
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.rating-layout > span {
+  font-size: 20px !important;
+}
+
+/* HISTORY */
+.odd-layout {
+   background: var(--lumo-contrast-10pct);
+}
+
+.even-layout {
+   background: var(--lumo-contrast-20pct);
+}
+
+.history-layout:active {
+   background: var(--hover-color);
+}
+
+.history-layout > span:nth-child(2) {
+   color: white;
+   font-family: none;
+   max-width: 143px;
+   overflow: ellipsis;
+}
+
+.history-layout > span:nth-child(1) {
+   font-size: 13px;
+   font-family: none;
+}
+
+.history-layout > vaadin-icon {
+  color: var(--lumo-error-color);
+}
+
+.history-layout {
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 10p;
+   box-shadow: 0.5px 0.5px 0.5px #0e;
+}
+
+.history-main-layout {
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+   gap: 0;
+}
+
+/* GENERATED */
+vaadin-app-layout::part(navbar) {
+   border-bottom: 0.5px solid var(--nav-borde);
+}
+
+.stars-layout {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   font-size: 22px;
+}
+
+.rating-layout > span {
+   color: white;
+   text-shadow: 0.5px 0.5px white;
+   font-size: 17px;
+}
+
+.generated-main-layout .rating-layout {
+   width: 100%;
+   align-items: center;
+   height: 100%;
+   justify-content: center;
+}
+
+.download-div > vaadin-button {
+  align-self: center;
+  height: 55px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: 0.5px solid var(--nav-border);
+  margin-top: 10px;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to left, rgba(31, 215, 232, 0.873) 0%, rgba(2, 29, 78, 0.681) 40%);
+  color: white;
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 20px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   font-family: serif;
+  color: #0ef;
+}
+
+.download-div > span:nth-child(2) > vaadin-icon {
+   fill: #0ef !important;
+}
+
+.download-div > span:nth-child(2) {
+   color: white;
+   display: flex;
+   gap: 10px;
+   font-weight: bold;
+   font-size: 18px;
+   text-shadow: 0.5px 0.5px #0ef;
+}
+
+.download-div > span:first-child {
+   color: #0ef;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.download-div {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.download-info-text {
+   color: white;
+   font-size: 15px;
+   text-align: center;
+}
+
+.time-text > vaadin-icon {
+   color: #0ef;
+}
+
+.time-text {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   color: var(--secondary);
+   font-size: 14px;
+}
+
+.successful-text {
+   background: linear-gradient(270deg, gray 0%, rgba(31, 215, 232, 0.873) 60%);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 23px;
+   font-weight: bold;
+   width: 100%;
+   text-align: center;
+}
+
+.generated-header > vaadin-icon {
+   stroke: #0ef;
+}
+
+.generated-header > span {
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.generated-header {
+   justify-content: space-between;
+   align-items: center;
+   font-size: 25px;
+   width: 100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: white;
+}
+
+.generated-main-layout {
+   width: 100%;
+   height: 100%;
+}
+
+/* MAIN */
+.progress-div vaadin-progress-bar[indeterminate] {
+   background: #0e;
+}
+
+.progress-div vaadin-progress-bar {
+   width: 100%;
+   height: 10px;
+}
+
+.progress-div > label {
+   color: white;
+}
+
+.progress-div {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 150px;
+}
+
+.fade-in-out {
+   animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+   0% { opacity: 0; } 
+   50% { opacity: 1; } 
+   100% { opacity: 0; }
+}
+
+.ai-avatar {
+   width: 200px;
+   height: 200px;
+   fill: white;
+   stroke: #0ef;
+}
+
+.second-layout {
+   align-self: end;
+}
+
+.second-layout > div {
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   align-items: center;
+   background: var(--button-contrast-color);
+   border-radius: 10px;
+   padding: 8px;
+}
+
+.second-layout vaadin-icon {
+   color: #0ef;
+}
+
+.header-text {
+   background: linear-gradient(270deg, gray 0%, rgba(31, 215, 232, 0.873) 60%);
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+vaadin-avatar {
+   fill: white;
+}
+
+.field-layout > vaadin-button {
+   /*background: var(--lumo-primary-color);
+   color: white;
+   text-shadow: 0.5px 0.5px white;
+   border-radius: 30px;
+   height: 45px;*/
+   height: 55px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: 0.5px solid var(--nav-border);
+  margin-top: 10px;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to left, rgba(31, 215, 232, 0.873) 0%, rgba(2, 29, 78, 0.681) 40%);
+  color: white;
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 20px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   font-family: serif;
+}
+
+.field-layout > vaadin-text-field::part(label) {
+   color: #0ef;
+   font-family: serif;
+   font-weight: bold;
+   font-size: 15px;
+   margin-bottom: 5px;
+}
+
+.field-layout > vaadin-text-field > input:placeholder-shown {
+   font-family: serif;
+   color: black;
+}
+
+.field-layout > vaadin-text-field > input {
+   margin-left: 10px;
+}
+
+.field-layout > vaadin-text-field::part(input-field) {
+   width: 100%;
+   height: 55px;
+   /*border-radius: 30px;
+   background: var(--text-field);
+   border: 0.5px solid var(--nav-border);*/
+   color: black;
+  border: 0.5px solid white;
+  border-radius: 30px;
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+}
+
+.field-layout {
+   all: unset;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.main-layout > span:last-child {
+   font-size: 20px;
+   color: white;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   font-style: italic;
+}
+
+.main-layout {
+   height: 100%;
+   ackground: rgb(2,0,36);
+   ackground: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+   align-items: center;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) span {
+   font-size: 20px;
+   color: white;
+   font-family: serif;
+   width: 100%;
+   text-align: center;
+   font-weight: bold;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) {
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) > vaadin-button {
+   align-self: end;
+   color: white;
+   background: var(--lumo-primary-color);
+   border-radius: 8px;
+   margin-right: 10px;
+   font-family: serif;
+   font-size: 13px;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) > div > vaadin-icon {
+   font-size: 30px;
+   stroke: #0ef;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) > vaadin-icon {
+   color: #0ef;
+   position: relative;
+   right: 10px;
+   top: 10px;
+   border: 0.5px solid #0ef;
+   border-radius: 50%;
+   font-size: 20p;
+}
+
+.header-main-layout > vaadin-horizontal-layout:nth-child(1) > div {
+   margin-left: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100;
+   gap: 10px;
+}
+
+.header-layout span {
+   font-size: 13px;
+   font-family: serif;
+}
+
+.header-main-layout {
+  width: 100%;
+  padding: 0;
+  padding-top: 15px;
+}
+
+vaadin-app-layout[overlay], vaadin-app-layout::part(navbar) {
+   background: var(--primary);
+}
+
+.header-layout {
+   width: 100%;
+   align-items: center;
+   color: white;
+   border-top: 0.5px solid var(--nav-border);
+   border-bottom: 0.5px solid var(--nav-border);
+   padding: 10px;
+   justify-content: space-evenly;
+}
+
+.header-layout > vaadin-avatar {
+   border: 0.5px solid var(--nav-border);
+   width: 40px;
+   height: 40px;
+}
+
+.header-layout > vaadin-button > vaadin-icon {
+   color: #0ef;
+}
+
+.header-layout > vaadin-button {
+   align-self: end;
+   color: white;
+   background: var(--button-contrast-color);
+   border-radius: 8px;
+   font-family: serif;
+}
+
+.header-text {
+}
+
+.text {
+   color: white;
+   width: 300px;
+   align-self: center;
+   margin-right: 50px;
+}
+
+.done-button {
+}
+
+.ai-avatar {
+}
+
+.field-layout {
+}
+
+.main-layout {
+}
+
+.second-layout {
+}
+
+:root {
+  --primary: #242527;
+  --secondary: #797E81;
+  --nav-border: #666769;
+  --primary-text-color: #6CA7ED;
+  --button-contrast-color: #393A3C;
+  --text-field: #393A3C;
+  --hover-color: #656668;
+  --sheet-error-color: #FC5777;
+  --block-error-color: #DF484F;
+  --block-text-color: #B0B4B7;
+  --block-button-error-color: #FB3C44;
+  --text-area-color: #333436;
+}
+
+body {
+  font-family: serif;
+}
+
+.form[overlay] {
+  background-image: url('./images/background.png');
+  background-size: cover;
+}
+
+.register-form {
+  background-image: url('./images/background.png');
+  background-size: cover;
+}
+
+body {
+  user-select: none;
+}
+
+vaadin-avatar {
+  pointer-events: none;
+}
+
+/* RATING */
+.rating-main-layout {
+   height: 100%;
+}
+
+.rating-tabsheet vaadin-tabs[orientation="horizontal"],
+.rating-tabsheet vaadin-tabs::part(tabs) {
+   justify-content: center;
+   border-top: 1px solid var(--nav-borde);
+   width: 100%;
+   color: white;
+}
+
+.rating-tabsheet {
+   padding: 0;
+   margin: 0;
+   height: 100%;
+   overflow-y: auto;
+}
+
+.rating-tabsheet vaadin-tab {
+   width: 163px;
+   padding: 0;
+}
+
+.rating-tabsheet vaadin-tab[selected] {
+   color: white;
+}
+
+.rating-tabsheet vaadin-tab:before {
+   width: 160px;
+   background: white;
+   height: 2px;
+   margin: 0;
+   padding: 0;
+}
+
+.message-request-main-layout > vaadin-tabsheet::part(tabs-container) {
+   align-self: center;
+   width: 340p;
+}
+
+.rating-tabsheet::part(content) {
+   padding: 0;
+   overflow-y: auto;
+   height: 100%;
+}
+
+vaadin-chart {
+   border: 1px solid var(--nav-borde);
+}
+
+apex-charts-wrapper {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}

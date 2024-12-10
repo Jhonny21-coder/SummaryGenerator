@@ -1,0 +1,367 @@
+.button2 {
+  position: relative;
+  top: 10px;
+}
+
+vaadin-password-field.password::part(error-message) {
+  position: absolute;
+  top: 483px;
+  font-size: 11px;
+}
+
+vaadin-email-field.email::part(error-message) {
+  position: fixed;
+  top: 395px;
+  font-size: 11px;
+}
+
+vaadin-text-field.register-field:nth-child(2)::part(error-message) {
+  position: fixed;
+  top: 305px;
+  font-size: 11px;
+}
+
+vaadin-text-field.register-field:first-child::part(error-message) {
+  position: fixed;
+  top: 215px;
+  font-size: 11px;
+}
+
+v-notification-card {
+  width: 100%;
+  text-align: center;
+  background: green;
+}
+
+.register-login-button {
+  background: transparent;
+  position: relative;
+  bottom: 10p;
+  color: #0ef;
+  top: 15px;
+  border-radius: 30px;
+}
+
+.back-continue {
+  position: relative;
+  right: 130px;
+}
+
+.register-upload vaadin-upload-file::part(meta),
+.register-upload vaadin-upload-file::part(done-icon){
+  position: absolute;
+  z-index: 9999;
+}
+
+.register-avatar {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  left: 53px;
+  pointer-events: none;
+  border: 1px solid var(--lumo-contrast-40pct);
+}
+
+vaadin-upload.register-upload > vaadin-button {
+  display: flex;
+  padding-left: 15px;
+  width: 170px;
+  color: white;
+  background: transparent;
+  border: 1px solid var(--lumo-contrast-20pct);
+  position: absolute;
+  bottom: 12px;
+  left: -10px;
+  border-radius: 20px;
+}
+
+.register-upload vaadin-upload-file::part(remove-button) {
+  position: absolute;
+  display: none;
+  background: green;
+}
+
+.register-upload vaadin-upload-file::part(done-icon),
+.register-upload vaadin-upload-file[uploading]
+/*.register-upload vaadin-upload-file::part(name)*/ {
+  display: none;
+}
+
+vaadin-button.button1 {
+  position: absolute;
+  bottom: 100p;
+  top: 495px;
+  left: 15px;
+}
+
+.form-link {
+  top: 20px;
+}
+
+.register-fields-layout {
+  /*background: var(--lumo-contrast-10pct);*/
+  background-image: url('./images/background.png');
+  background-size: cover;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-form {
+  background: black;
+  height: 100%;
+  user-select: none;
+}
+
+.accordion {
+  height: 450px;
+}
+
+vaadin-text-field.register-field > input:placeholder-shown{
+  color: var(--lumo-shade-50pct);
+}
+
+vaadin-date-picker.date-picker::part(toggle-button)::before {
+  color: #0ef;
+}
+
+.button2, .back-continue {
+   margin-left: 20px;
+}
+
+vaadin-icon.button2, vaadin-icon.back-continue {
+  border-radius: 50%;
+  border: 1px solid #0ef;
+  width: 50px;
+  margin-top: 7px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  color: white;
+  height: 50px;
+  -webkit-box-reflect: left-side 20px linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.button2, .back-continue {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+vaadin-icon.button2:active, vaadin-icon.back-continue:active {
+  scale: 0.92;
+  border: 1px solid white;
+  background: #0ef;
+  color: black;
+}
+
+vaadin-button.back-continue:active {
+  scale: 0.92;
+}
+
+vaadin-button.back-continue:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: black;
+}
+
+/*.register-upload vaadin-upload-file::part(remove-button) {
+  color: var(--lumo-error-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-upload vaadin-upload-file::part(done-icon) {
+  color: #0ef;
+}*/
+
+.panel vaadin-accordion-heading::part(toggle) {
+  display: none;
+  background: transparent;
+}
+
+.panel vaadin-accordion-panel[disabled] {
+  display: none;
+  background: transparent;
+}
+
+.accordion vaadin-accordion-heading {
+  display: none;
+  background: transparent;
+}
+
+.hint2 {
+  color: #0ef;
+}
+
+.hint {
+  color: var(--lumo-contrast-80pct);
+}
+
+/*vaadin-upload.register-upload > vaadin-button {
+  color: white;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 10px;
+  border-radius: 40px;
+  border: 0.5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+vaadin-upload.register-upload > vaadin-button[disabled] {
+  display: none;
+}
+
+.register-upload {
+  color: white;
+  /*margin-right: 5px;*/
+}
+
+vaadin-button.button1 {
+  
+  margin-top: 20px;
+  width: 17em;
+  height: 3em;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: 0.5px solid white;;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: linear-gradient(to left, rgba(31, 215, 232, 0.873) 0%, rgba(2, 29, 78, 0.681) 40%);
+  color: white;
+  font-weight: 700;
+  /*box-shadow: 0px 0px 60px #1f4c65;*/
+  -webkit-box-reflect: below 20px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+vaadin-button.button1:active {
+  scale: 0.92;
+}
+
+vaadin-button.button1:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: black;
+}
+
+.panel {
+  background: #0ef;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.register-form {
+  overflow: hidden;
+  background-image: url('./register_images/background.png');
+  background-size: cover;
+}
+
+vaadin-button.btn {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+vaadin-button.btn:active {
+  scale: 0.92;
+}
+
+vaadin-button.btn:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
+}
+
+vaadin-text-field.register-field::part(input-field) {
+  border: 0.5px solid white;
+  height: 3em;
+  transition: 0.6s;
+  border-radius: 20px;
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+}
+
+vaadin-text-field.register-field > input:placeholder-shown {
+  color: var(--lumo-shade-60pct);
+}
+
+vaadin-text-field.register-field {
+  cursor: pointer;
+}
+
+vaadin-text-field.register-field > input {
+  color: black;
+}
+
+/*vaadin-text-field.register-field:active {
+  scale: 0.92;
+}*/
+
+vaadin-text-field.register-field > [slot="suffix"] {
+  color: #0ef;
+}
+
+vaadin-text-field.register-field::part(label) {
+  color: white;
+  
+}
+
+vaadin-combo-box.gender::part(input-field) {
+  border: 0.5px solid white;
+  height: 3em;
+  border-radius: 20px;
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+} 
+
+vaadin-combo-box.gender > input {
+  background: linear-gradient(to right, black 80%, white 10%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+vaadin-combo-box.gender::part(label) {
+  color: white;
+  
+}
+
+vaadin-combo-box.gender::part(toggle-button)::before {
+  color: #0ef;
+}
+
+.gender vaadin-combo-box-overlay {
+  background: #0ef;
+}
+
+vaadin-date-picker.date-picker::part(input-field) {
+  border: 0.5px solid white;
+  height: 3em;
+  border-radius: 20px;
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+}
+
+vaadin-date-picker.date-picker > input {
+  background: linear-gradient(to right, black 80%, white 10%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+vaadin-date-picker.date-picker::part(label) {
+  color: white;
+  
+}
